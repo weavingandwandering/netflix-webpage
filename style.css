@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+
+}
+
+.main{
+    background-image: url("netflix_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+    height: 80vh;
+    position:relative;  
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 60px;
+}
+
+img.image{
+    justify-content: left;
+    position: relative;
+    z-index: 10;
+    
+}
+
+div.button{
+    z-index: 10;
+}
+
+div.blast{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    word-wrap: break-word;
+    position: relative;
+}
+
+span.bigger{
+    font-size: 50px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+span.middle{
+    font-size: 30px;
+    font-family: 'Martel Sans';
+    font-weight: 400;
+}
+span.bottom{
+    font-size: 25px;
+    font-family: 'Martel Sans';
+}
+
+.button :first-child{
+    background-color:#E50914;
+    color: white;
+    position: relative;
+    border-radius: 0.2pc;
+    border-color: transparent;
+}
+
+.email{
+    height:auto;
+    
+    
+
+}
+.emailinput{
+    background-color: black;
+    border-color: transparent;
+    z-index: 0;
+    border-right-width: 0.1pc;
+    border-left-width: 0.1cap;
+    border-top-width: 0.1cap;
+    border-bottom-width: 0.1cap;
+ 
+    height: 3pc;
+    width: 20pc;
+    border-radius: 0.4pc;
+    color: aliceblue;
+    opacity: 0.8;
+    font-size: 20px;
+    
+
+}
+.control{
+    background-color: red;
+    height: 3pc;
+    color: white;
+    width: 10pc;
+    font-weight: bold;
+    font-size:large;
+    border-color: transparent;
+    border-radius: 0.3pc;
+
+
+}
